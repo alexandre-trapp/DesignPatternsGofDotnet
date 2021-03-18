@@ -1,7 +1,8 @@
 ﻿using System;
 using DesignPatternsGofDotnet.Builder;
-using DesignPatternsGofDotnet.AbstractFactory;
 using DesignPatternsGofDotnet.Factory;
+using DesignPatternsGofDotnet.Singleton;
+using DesignPatternsGofDotnet.AbstractFactory;
 
 namespace DesignPatternsGofDotnet
 {
@@ -21,6 +22,11 @@ namespace DesignPatternsGofDotnet
 
             Console.WriteLine("-------- FACTORY --------");
             FactoryApp.Execute();
+
+            Console.WriteLine();
+
+            Console.WriteLine("-------- SINGLETON --------");
+            SingletonApp.Execute();
 
             Console.WriteLine();
 
