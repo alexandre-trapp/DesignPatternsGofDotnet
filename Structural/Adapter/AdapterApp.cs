@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace DesignPatternsGofDotnet.Structural.Adapter {
+﻿namespace DesignPatternsGofDotnet.Structural.Adapter {
 
     public static class AdapterApp {
 
