@@ -6,6 +6,7 @@ using DesignPatternsGofDotnet.AbstractFactory;
 using DesignPatternsGofDotnet.Structural.Bridge;
 using DesignPatternsGofDotnet.Structural.Adapter;
 using DesignPatternsGofDotnet.Creational.Prototype;
+using DesignPatternsGofDotnet.Structural.Composite;
 
 namespace DesignPatternsGofDotnet {
     static class Program {
@@ -49,6 +50,11 @@ namespace DesignPatternsGofDotnet {
 
             Console.WriteLine("-------- BRIDGE --------");
             BridgeApp.Execute();
+
+            Console.WriteLine();
+
+            Console.WriteLine("-------- COMPOSITE --------");
+            CompositeApp.Execute();
         }
     }
 }
