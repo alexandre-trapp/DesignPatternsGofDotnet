@@ -1,11 +1,11 @@
 ﻿using System;
-
-using DesignPatternsGofDotnet.AbstractFactory;
 using DesignPatternsGofDotnet.Builder;
-using DesignPatternsGofDotnet.Creational.Prototype;
 using DesignPatternsGofDotnet.Factory;
 using DesignPatternsGofDotnet.Singleton;
+using DesignPatternsGofDotnet.AbstractFactory;
+using DesignPatternsGofDotnet.Structural.Bridge;
 using DesignPatternsGofDotnet.Structural.Adapter;
+using DesignPatternsGofDotnet.Creational.Prototype;
 
 namespace DesignPatternsGofDotnet {
     static class Program {
@@ -44,6 +44,11 @@ namespace DesignPatternsGofDotnet {
 
             Console.WriteLine("-------- ADAPTER --------");
             AdapterApp.Execute();
+
+            Console.WriteLine();
+
+            Console.WriteLine("-------- BRIDGE --------");
+            BridgeApp.Execute();
         }
     }
 }

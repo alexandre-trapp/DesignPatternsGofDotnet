@@ -4,9 +4,9 @@ namespace DesignPatternsGofDotnet.Creational.Prototype
 {
     class Color : ColorPrototype
     {
-        private int _red;
-        private int _green;
-        private int _blue;
+        private readonly int _red;
+        private readonly int _green;
+        private readonly int _blue;
 
         public Color(int red, int green, int blue)
         {

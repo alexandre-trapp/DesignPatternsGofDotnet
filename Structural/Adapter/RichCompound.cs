@@ -5,15 +5,14 @@ namespace DesignPatternsGofDotnet.Structural.Adapter {
   /// <summary>
   /// The 'Adapter' class
   /// </summary>
-  class RichCompound : Compound {
-    private ChemicalDatabank _bank;
-
+  class RichCompound : Compound 
+  {
     public RichCompound(string name) : base(name) { }
 
     public override void Display()
     {
       // The Adaptee
-      _bank = new ChemicalDatabank();
+      var _bank = new ChemicalDatabank();
  
       _boilingPoint = _bank.GetCriticalPoint(_chemical, "B");
       _meltingPoint = _bank.GetCriticalPoint(_chemical, "M");
