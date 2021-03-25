@@ -21,7 +21,7 @@ namespace DesignPatternsGofDotnet.Creational.Prototype
                 "Cloning color RGB: {0,3},{1,3},{2,3}",
                 _red, _green, _blue);
 
-            return this.MemberwiseClone() as ColorPrototype;
+            return MemberwiseClone() as ColorPrototype;
         }
     }
 }

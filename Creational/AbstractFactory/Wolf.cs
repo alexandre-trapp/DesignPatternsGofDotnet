@@ -9,6 +9,6 @@ namespace DesignPatternsGofDotnet.AbstractFactory
     {
         public override void Eat(Herbivore herbivore) =>
             // Eat rabbit
-            Console.WriteLine(this.GetType().Name + " eats " + herbivore.GetType().Name);
+            Console.WriteLine(GetType().Name + " eats " + herbivore.GetType().Name);
     }
 }
