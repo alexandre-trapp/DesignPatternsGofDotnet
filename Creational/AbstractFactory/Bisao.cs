@@ -3,7 +3,7 @@
     /// <summary>
     /// Bison: 'ProductA2' class
     /// </summary>
-    internal class Bison : Herbivoro
+    internal class Bisao : Herbivoro
     {
     }
 }

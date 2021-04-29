@@ -9,6 +9,6 @@
             new Lobo();
 
         public override Herbivoro CriarHerbivoro() =>
-            new Bison();
+            new Bisao();
     }
 }
