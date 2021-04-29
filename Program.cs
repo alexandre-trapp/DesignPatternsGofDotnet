@@ -18,7 +18,7 @@ namespace DesignPatternsGofDotnet {
             Console.WriteLine();
 
             Console.WriteLine("-------- ABSTRACT FACTORY --------");
-            AbstractFactoryApp.Execute();
+            AbstractFactoryMundoAnimalApp.Execute();
 
             Console.WriteLine();
 

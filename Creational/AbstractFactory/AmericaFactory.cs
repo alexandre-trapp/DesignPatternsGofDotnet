@@ -3,12 +3,12 @@
     /// <summary>
     /// The 'ConcreteFactory2' class
     /// </summary>
-    class AmericaFactory : ContinentFactory
+    class AmericaFactory : ContinenteFactory
     {
-        public override Carnivore CreateCarnivore() =>
-            new Wolf();
+        public override Carnivoro CriarCarnivoro() =>
+            new Lobo();
 
-        public override Herbivore CreateHerbivore() =>
+        public override Herbivoro CriarHerbivoro() =>
             new Bison();
     }
 }

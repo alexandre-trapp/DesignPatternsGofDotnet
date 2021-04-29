@@ -1,9 +1,9 @@
 ﻿namespace DesignPatternsGofDotnet.AbstractFactory
 {
     /// <summary>
-    /// The 'AbstractProductA' abstract class
+    /// Coelho: 'ProductA1' class
     /// </summary>
-    internal class Herbivore
+    internal class Coelho : Herbivoro
     {
     }
 }
