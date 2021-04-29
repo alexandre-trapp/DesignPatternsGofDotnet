@@ -3,7 +3,7 @@
 namespace DesignPatternsGofDotnet.Structural.Facade
 {
     /// <summary>
-    /// Hipoteca: classe 'Facade' 
+    /// Hipoteca: classe fachada 'Facade' 
     /// </summary>
     class Hipoteca
     {
