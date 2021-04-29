@@ -8,6 +8,7 @@ using DesignPatternsGofDotnet.Structural.Adapter;
 using DesignPatternsGofDotnet.Creational.Prototype;
 using DesignPatternsGofDotnet.Structural.Composite;
 using DesignPatternsGofDotnet.Structural.Decorator;
+using DesignPatternsGofDotnet.Structural.Facade;
 
 namespace DesignPatternsGofDotnet {
     static class Program {
@@ -61,6 +62,11 @@ namespace DesignPatternsGofDotnet {
 
             Console.WriteLine("-------- DECORATOR --------");
             DecoratorApp.Execute();
+
+            Console.WriteLine();
+
+            Console.WriteLine("-------- FACADE --------");
+            FacadeHipotecaApp.Execute();
         }
     }
 }
