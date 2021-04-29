@@ -3,7 +3,8 @@
     /// <summary>
     /// Herbivoro: 'AbstractProductA' abstract class
     /// </summary>
-    internal class Herbivoro
+    abstract class Herbivoro
     {
+        public abstract void Comer();
     }
 }

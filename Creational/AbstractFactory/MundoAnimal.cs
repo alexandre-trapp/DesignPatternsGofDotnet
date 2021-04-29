@@ -14,7 +14,10 @@
             _carnivoro = factory.CriarCarnivoro();
         }
 
-        public void AdministrarCadeiaAlimentar() =>
+        public void AdministrarCadeiaAlimentar()
+        {
             _carnivoro.Comer(_herbivoro);
+            _herbivoro.Comer();
+        }
     }
 }
