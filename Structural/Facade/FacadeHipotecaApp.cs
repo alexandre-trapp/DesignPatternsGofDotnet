@@ -3,8 +3,11 @@
 namespace DesignPatternsGofDotnet.Structural.Facade
 {
     /// <summary>
-    /// Facade Design Pattern.
-    /// FacadeHipotecaApp startup class para cenário do mundo real (hipoteca)
+    /// O Facade é um padrão de projeto estrutural 
+    /// que fornece uma interface simplificada para uma biblioteca, 
+    /// um framework, ou qualquer conjunto complexo de classes.
+    /// Consulte: https://refactoring.guru/pt-br/design-patterns/facade
+    /// ou https://www.dofactory.com/net/facade-design-pattern
     /// </summary>
     public static class FacadeHipotecaApp
     { 

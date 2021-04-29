@@ -5,6 +5,7 @@
     /// que permite que você produza famílias de objetos relacionados 
     /// sem ter que especificar suas classes concretas.
     /// Consulte: https://refactoring.guru/pt-br/design-patterns/abstract-factory
+    /// ou https://www.dofactory.com/net/abstract-factory-design-pattern
     /// </summary>
     public static class AbstractFactoryMundoAnimalApp
     {
