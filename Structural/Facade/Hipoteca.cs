@@ -18,8 +18,7 @@ namespace DesignPatternsGofDotnet.Structural.Facade
 
             bool elegivel = true;
 
-            // Check creditworthyness of applicant
-
+            // Checar se é elegível/possui crédito para hipoteca
             if (!_banco.TemSaldoSuficiente(cliente, valor))
             {
                 elegivel = false;

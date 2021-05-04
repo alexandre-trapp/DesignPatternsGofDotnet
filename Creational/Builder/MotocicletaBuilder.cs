@@ -1,21 +1,20 @@
 ﻿namespace DesignPatternsGofDotnet.Builder
 {
     /// <summary>
-    /// ScooterBuilder: classe 'ConcreteBuilder3'
+    /// MotocicletaBuilder: 'ConcreteBuilder1'
     /// </summary>
-    class ScooterBuilder : VeiculoBuilder
+    class MotocicletaBuilder : VeiculoBuilder
     {
-        public ScooterBuilder() =>
-            _veiculo = new Veiculo("Scooter");
-        
+        public MotocicletaBuilder() => _veiculo = new Veiculo("Motorcicleta");
+
         public override void BuildPortas() =>
             _veiculo["portas"] = "0";
 
         public override void BuildMotor() =>
-            _veiculo["motor"] = "50 cc";
+            _veiculo["motor"] = "500cc";
 
         public override void BuildCarroceria() =>
-            _veiculo["carroceria"] = "Quadro de scooter";
+            _veiculo["carroceria"] = "Quadro de motocicleta";
 
         public override void BuildRodas() =>
             _veiculo["rodas"] = "2";

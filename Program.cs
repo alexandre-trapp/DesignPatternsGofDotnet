@@ -23,7 +23,7 @@ namespace DesignPatternsGofDotnet {
             Console.WriteLine();
 
             Console.WriteLine("-------- BUILDER --------");
-            BuilderApp.Execute();
+            VeiculoBuilderApp.Execute();
 
             Console.WriteLine();
 
