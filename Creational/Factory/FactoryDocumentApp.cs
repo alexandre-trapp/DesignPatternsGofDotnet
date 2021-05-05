@@ -7,6 +7,8 @@ namespace DesignPatternsGofDotnet.Factory
     /// que fornece uma interface para criar objetos em uma 
     /// superclasse, mas permite que as subclasses alterem 
     /// o tipo de objetos que serão criados.
+    /// Consulte: https://refactoring.guru/pt-br/design-patterns/factory-method
+    /// ou https://www.dofactory.com/net/factory-method-design-pattern
     /// </summary>
     static class FactoryDocumentApp
     {
