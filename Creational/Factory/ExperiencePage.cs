@@ -1,7 +1,7 @@
 ﻿namespace DesignPatternsGofDotnet.Factory
 {
     /// <summary>
-    /// A 'ConcreteProduct' class
+    /// ExperiencePage: classe produto concreta ('ConcreteProduct')
     /// </summary>
     class ExperiencePage : Page
     {

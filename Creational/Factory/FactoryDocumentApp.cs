@@ -2,17 +2,23 @@
 
 namespace DesignPatternsGofDotnet.Factory
 {
-    static class FactoryApp
+    /// <summary>
+    /// O Factory Method é um padrão criacional de projeto 
+    /// que fornece uma interface para criar objetos em uma 
+    /// superclasse, mas permite que as subclasses alterem 
+    /// o tipo de objetos que serão criados.
+    /// </summary>
+    static class FactoryDocumentApp
     {
         public static void Execute()
         {
-            // Constructors call Factory Method
+            // Contrutores chamam o método Factory
             Document[] documents = new Document[2];
 
             documents[0] = new Resume();
             documents[1] = new Report();
 
-            // Display document pages
+            // Exibir páginas dos documentos
             foreach (Document document in documents)
             {
                 Console.WriteLine(Environment.NewLine + document.GetType().Name + "--");

@@ -28,7 +28,7 @@ namespace DesignPatternsGofDotnet {
             Console.WriteLine();
 
             Console.WriteLine("-------- FACTORY --------");
-            FactoryApp.Execute();
+            FactoryDocumentApp.Execute();
 
             Console.WriteLine();
 

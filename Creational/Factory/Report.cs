@@ -1,11 +1,11 @@
 ﻿namespace DesignPatternsGofDotnet.Factory
 {
     /// <summary>
-    /// A 'ConcreteCreator' class
+    /// Report: classe concreta construtora/criadora 'ConcreteCreator'
     /// </summary>
     class Report : Document
     {
-        // Factory Method implementation
+        // Implementação método Factory 
         public override void CreatePages()
         {
             Pages.Add(new IntroductionPage());

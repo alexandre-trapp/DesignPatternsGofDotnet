@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace DesignPatternsGofDotnet.Factory
 {
     /// <summary>
-    /// The 'Creator' abstract class
+    /// Document: classe construtora/criadora abstrata ('Creator')
     /// </summary>
     abstract class Document
     {
