@@ -38,7 +38,7 @@ namespace DesignPatternsGofDotnet {
             Console.WriteLine();
 
             Console.WriteLine("-------- PROTOTYPE --------");
-            PrototypeApp.Execute();
+            PrototypeCoresApp.Execute();
 
             Console.WriteLine();
 
