@@ -5,7 +5,6 @@ namespace DesignPatternsGofDotnet.Structural.Adapter {
     /// </summary>
     public class BancoDeDadosQuimico
     {
-
         // banco de dados 'API legada'
         public float ObterPontoCritico(string composto, string point)
         {
