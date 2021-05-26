@@ -3,7 +3,7 @@ using System;
 namespace DesignPatternsGofDotnet.Structural.Adapter {
   
   /// <summary>
-  /// classe 'Adapter'
+  /// classe 'Adaptada'
   /// </summary>
   class CompostoEnriquecido : Composto 
   {
@@ -11,7 +11,7 @@ namespace DesignPatternsGofDotnet.Structural.Adapter {
 
     public override void Exibir()
     {
-      // The Adaptee
+      // O adaptador
       var _bank = new BancoDeDadosQuimico();
  
       _pontoEbulicao = _bank.ObterPontoCritico(_quimica, "B");
