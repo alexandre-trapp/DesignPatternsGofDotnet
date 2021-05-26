@@ -1,35 +1,41 @@
 namespace DesignPatternsGofDotnet.Structural.Adapter {
 
-  /// <summary>
-  /// Classe 'Adapter'
-  /// </summary>
-  public class BancoDeDadosQuimico {
+    /// <summary>
+    /// Classe 'Adapter'
+    /// </summary>
+    public class BancoDeDadosQuimico
+    {
 
-    // banco de dados 'API legada'
-    public float ObterPontoCritico(string composto, string point) {
+        // banco de dados 'API legada'
+        public float ObterPontoCritico(string composto, string point)
+        {
 
-      // Ponto de fusão
-      if (point == "M") {
+            // Ponto de fusão
+            if (point == "M")
+            {
 
-        return (composto.ToLower()) switch {
-        "agua" => 0.0f,
-        "benzeno" => 5.5f,
-        "etanol" => -114.1f,
-        _ => 0f,
-        };
-      }
+                return (composto.ToLower()) switch
+                {
+                    "agua" => 0.0f,
+                    "benzeno" => 5.5f,
+                    "etanol" => -114.1f,
+                    _ => 0f,
+                };
+            }
 
-      // Ponto de ebulição
-      else {
+            // Ponto de ebulição
+            else
+            {
 
-        return (composto.ToLower()) switch {
-          "agua" => 100.0f,
-          "benzeno" => 80.1f,
-          "etanol" => 78.3f,
-          _ => 0f,
-        };
-      }
-    }
+                return (composto.ToLower()) switch
+                {
+                    "agua" => 100.0f,
+                    "benzeno" => 80.1f,
+                    "etanol" => 78.3f,
+                    _ => 0f,
+                };
+            }
+        }
 
         public string ObterEstruturaMolecular(string composto) => (composto.ToLower()) switch
         {
