@@ -8,11 +8,11 @@ namespace DesignPatternsGofDotnet.Structural.Decorator
         {
             // Create book
             var book = new Book("Worley", "Inside ASP.NET", 10);
-            book.Display();
+            book.Exibir();
 
             // Create video
             var video = new Video("Spielberg", "Jaws", 23, 92);
-            video.Display();
+            video.Exibir();
 
             // Make video borrowable, then borrow and display
             Console.WriteLine("\nMaking video borrowable:");
@@ -21,7 +21,7 @@ namespace DesignPatternsGofDotnet.Structural.Decorator
             borrowvideo.BorrowItem("Customer #1");
             borrowvideo.BorrowItem("Customer #2");
 
-            borrowvideo.Display();
+            borrowvideo.Exibir();
         }
     }
 }

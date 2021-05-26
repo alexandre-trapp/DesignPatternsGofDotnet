@@ -24,7 +24,7 @@
             root.Remove(pe);
 
             // Recursively display nodes
-            root.Display(1);
+            root.Exibir(1);
         }
     }
 }

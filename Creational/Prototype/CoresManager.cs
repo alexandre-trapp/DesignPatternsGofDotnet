@@ -7,14 +7,14 @@ namespace DesignPatternsGofDotnet.Creational.Prototype
     /// </summary>
     class CoresManager
     {
-        private readonly Dictionary<string, CoresPrototype> _coress =
+        private readonly Dictionary<string, CoresPrototype> _cores =
             new Dictionary<string, CoresPrototype>();
 
         // Indexer
         public CoresPrototype this[string key]
         {
-            get => _coress[key];
-            set => _coress.Add(key, value);
+            get => _cores[key];
+            set => _cores.Add(key, value);
         }
     }
 }

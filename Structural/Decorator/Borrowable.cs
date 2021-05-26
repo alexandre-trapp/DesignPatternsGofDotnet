@@ -24,9 +24,9 @@ namespace DesignPatternsGofDotnet.Structural.Decorator
             _libraryItem.NumCopies++;
         }
 
-        public override void Display()
+        public override void Exibir()
         {
-            base.Display();
+            base.Exibir();
 
             foreach (string borrower in borrowers)
                 Console.WriteLine(" borrower: " + borrower);

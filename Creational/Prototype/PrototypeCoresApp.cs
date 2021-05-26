@@ -25,8 +25,8 @@
 
             // Clonar cores selecionadas
             var cores1 = coresmanager["vermelho"].Clone() as Cores;
-            var cores2 = coresmanager["peace"].Clone() as Cores;
-            var cores3 = coresmanager["flame"].Clone() as Cores;
+            var cores2 = coresmanager["paz"].Clone() as Cores;
+            var cores3 = coresmanager["flamejante"].Clone() as Cores;
         }
     }
 }

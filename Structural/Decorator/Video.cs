@@ -20,7 +20,7 @@ namespace DesignPatternsGofDotnet.Structural.Decorator
             _playTime = playTime;
         }
 
-        public override void Display()
+        public override void Exibir()
         {
             Console.WriteLine("\nVideo ----- ");
             Console.WriteLine(" Director: {0}", _director);

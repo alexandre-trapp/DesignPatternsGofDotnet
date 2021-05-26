@@ -12,9 +12,9 @@
             _libraryItem = libraryItem;
         }
 
-        public override void Display()
+        public override void Exibir()
         {
-            _libraryItem.Display();
+            _libraryItem.Exibir();
         }
     }
 }

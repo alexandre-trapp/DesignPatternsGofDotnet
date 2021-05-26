@@ -1,23 +1,29 @@
 ﻿namespace DesignPatternsGofDotnet.Structural.Adapter {
 
+    /// <summary>
+    /// O Adapter é um padrão de projeto estrutural 
+    /// que permite objetos com interfaces incompatíveis colaborarem entre si.
+    /// Consulte: https://refactoring.guru/pt-br/design-patterns/adapter
+    /// ou https://www.dofactory.com/net/adapter-design-pattern
+    /// </summary>
     public static class AdapterApp {
 
         public static void Execute() {
 
-            // Non-adapted chemical compound
-            var unknown = new Compound("Unknow");
-            unknown.Display();
+            // Composto químico não adaptado
+            var unknown = new Composto("Unknow");
+            unknown.Exibir();
 
-            // Adapted chemical compounds
+            // Compostos quimicos adaptados
 
-            Compound water = new RichCompound("Water");
-            water.Display();
+            Composto agua = new CompostoEnriquecido("agua");
+            agua.Exibir();
 
-            Compound benzene = new RichCompound("Benzene");
-            benzene.Display();
+            Composto benzeno = new CompostoEnriquecido("benzeno");
+            benzeno.Exibir();
 
-            Compound ethanol = new RichCompound("Ethanol");
-            ethanol.Display();
+            Composto etanol = new CompostoEnriquecido("etanol");
+            etanol.Exibir();
         }
     }
 }

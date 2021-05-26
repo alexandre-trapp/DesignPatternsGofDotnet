@@ -12,7 +12,7 @@ namespace DesignPatternsGofDotnet.Structural.Composite
         public override void Add(DrawingElement element) =>
             Console.WriteLine("Cannot add to a PrimitiveElement");
 
-        public override void Display(int indent) =>
+        public override void Exibir(int indent) =>
             Console.WriteLine(new string('-', indent) + " " + _name);
 
         public override void Remove(DrawingElement element) =>

@@ -15,6 +15,6 @@
 
         public abstract void Add(DrawingElement element);
         public abstract void Remove(DrawingElement element);
-        public abstract void Display(int indent);
+        public abstract void Exibir(int indent);
     }
 }

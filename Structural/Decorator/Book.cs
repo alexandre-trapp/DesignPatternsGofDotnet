@@ -17,7 +17,7 @@ namespace DesignPatternsGofDotnet.Structural.Decorator
             NumCopies = numCopies;
         }
 
-        public override void Display()
+        public override void Exibir()
         {
             Console.WriteLine("\nBook ------ ");
             Console.WriteLine(" Author: {0}", _author);
